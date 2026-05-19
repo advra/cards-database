@@ -13,12 +13,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Greninja {star}",
-		fr: "Amphinobi {star}",
-		de: "Quajutsu {star}",
-		es: "Greninja {star}",
-		pt: "Greninja {star}",
-		it: "Greninja {star}"
+		en: "Greninja Star",
+		fr: "Amphinobi Star",
+		de: "Quajutsu Star",
+		es: "Greninja Star",
+		pt: "Greninja Star",
+		it: "Greninja Star"
 	},
 
 	rarity: "None",
