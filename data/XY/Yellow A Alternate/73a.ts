@@ -3,14 +3,14 @@ import Set from '../Yellow A Alternate'
 
 const card: Card = {
 	name: {
-		en: "Blacksmith",
+		en: "Team Flare Grunt",
 	},
 	rarity: "Promo",
 	category: "Trainer",
 	set: Set,
 
 	effect: {
-		en: "Attach 2 Fire Energy cards from your discard pile to 1 of your Fire Pokémon. You may play only 1 Supporter card during your turn (before your attack).",
+		en: "Discard an Energy attached to your opponent's Active Pokémon. You may play only 1 Supporter card during your turn (before your attack).",
 	},
 	trainerType: "Supporter",
 
@@ -18,7 +18,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 148339
+				tcgplayer: 148351
 			},
 		},
 	],
