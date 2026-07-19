@@ -13,20 +13,26 @@ const card: Card = {
 	set: Set,
 
 
-
-
-
-
-
-
-
-
-
 	effect: {
 		en: "Look at the top 4 cards of your deck. You may reveal a Trainer card you find there (except for Trainers’ Mail) and put it into your hand. Shuffle the other cards back into your deck.",
 		fr: "Regardez les 4 cartes du dessus de votre deck. Vous pouvez montrer une carte Dresseur que vous y trouvez (à part Courrier du Dresseur) et l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
 	},
 	trainerType: "Item",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 133815
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 133816
+			},
+		},
+	],
 
 }
 
